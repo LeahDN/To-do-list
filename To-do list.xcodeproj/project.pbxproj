@@ -11,6 +11,8 @@
 		BD205EEC2A38D0D50088BD84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD205EEB2A38D0D50088BD84 /* ContentView.swift */; };
 		BD205EEE2A38D0D70088BD84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD205EED2A38D0D70088BD84 /* Assets.xcassets */; };
 		BD205EF12A38D0D70088BD84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD205EF02A38D0D70088BD84 /* Preview Assets.xcassets */; };
+		BD205EF82A38D2030088BD84 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD205EF72A38D2030088BD84 /* ToDoItem.swift */; };
+		BD205EFA2A38D5160088BD84 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD205EF92A38D5160088BD84 /* NewToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BD205EEB2A38D0D50088BD84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD205EED2A38D0D70088BD84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD205EF02A38D0D70088BD84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD205EF72A38D2030088BD84 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		BD205EF92A38D5160088BD84 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,8 @@
 		BD205EDD2A38D0D50088BD84 = {
 			isa = PBXGroup;
 			children = (
+				BD205EF92A38D5160088BD84 /* NewToDoView.swift */,
+				BD205EF72A38D2030088BD84 /* ToDoItem.swift */,
 				BD205EE82A38D0D50088BD84 /* To-do list */,
 				BD205EE72A38D0D50088BD84 /* Products */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				BD205EEC2A38D0D50088BD84 /* ContentView.swift in Sources */,
 				BD205EEA2A38D0D50088BD84 /* To_do_listApp.swift in Sources */,
+				BD205EF82A38D2030088BD84 /* ToDoItem.swift in Sources */,
+				BD205EFA2A38D5160088BD84 /* NewToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
